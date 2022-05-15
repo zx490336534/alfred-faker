@@ -12,6 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+      - run: pip install -r requirements.txt -t src/vendor
+
       - name: Build Alfred Workflow
         id: alfred_builder
         uses: mperezi/build-alfred-workflow@v1
