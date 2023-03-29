@@ -9,7 +9,7 @@ sys.path.append(vendor_dir)
 
 from vendor.faker import Faker
 
-faker = Faker()
+faker = Faker(locale='zh_CN')
 
 fakeType = sys.argv[1]
 fakeValue = getattr(faker, fakeType)()

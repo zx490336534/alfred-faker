@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>in.solomk.faker</string>
+	<string>qunhe.tingbai</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -82,7 +82,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Maksym Solomkin</string>
+	<string>听白</string>
 	<key>description</key>
 	<string>Generates fake data based on joke2k/faker</string>
 	<key>disabled</key>
@@ -140,8 +140,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -208,7 +206,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Name","arg":"name","subtitle":"Full Name"},{"title":"Email","arg":"email"},{"title":"Address","arg":"address"},{"title":"First Name","arg":"first_name"},{"title":"Last Name","arg":"last_name"},{"title":"Country","arg":"country"}]</string>
+				<string>[{"title":"姓名","arg":"name","subtitle":""},{"title":"邮箱","arg":"email"},{"title":"地址","arg":"address"},{"title":"城市","arg":"city"},{"title":"手机号","arg":"phone_number"},{"title":"职业","arg":"job"},{"title":"身份证","arg":"ssn","subtitle":""},{"title":"公司","arg":"company","subtitle":""},{"title":"日期","arg":"date","subtitle":""},{"title":"时间","arg":"date_time","subtitle":""}]</string>
 				<key>keyword</key>
 				<string>fake</string>
 				<key>runningsubtext</key>
@@ -234,8 +232,6 @@
 				<false/>
 				<key>focusedappvariablename</key>
 				<string></string>
-				<key>keyword</key>
-				<string>:fk</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.snippet</string>
@@ -304,8 +300,8 @@
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.0.3</string>
+	<string>0.0.4</string>
 	<key>webaddress</key>
-	<string>https://github.com/solomkinmv/alfred-faker</string>
+	<string>https://github.com/zx490336534/alfred-faker</string>
 </dict>
 </plist>

@@ -1,2 +1,2 @@
 # alfred-faker
-Alfred Faker with Python 3 support
+Python3 中文版 Alfred Faker Workflow:生成随机数据
